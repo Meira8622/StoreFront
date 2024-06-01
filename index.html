@@ -36,7 +36,7 @@
                     
                     <div class="elements-showcase"> <!-- el tamaño de la imagen debe ser de 11.52pxx11.52px -->
                         
-                        <div class="element-card">
+                        <!-- <div class="element-card">
                             <div class="element-item-1">
                                 <div class="img-container"><img src="./assets/031f54f8134390cffc376248b1dae95f.jpg" placeholder="img"></div>
                                 <span>Nombre</span>
@@ -44,11 +44,11 @@
                             
                             <div class="element-item-2">
                                 <span>$ 100</span>
-                                <button class=""><img src="./assets/trash-can-solid.svg"></button>
+                                <button class="delete"><img src="./assets/trash-can-solid.svg"></button>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="element-card">
+                        <!-- <div class="element-card">
                             <div class="element-item-1">
                                 <img src="./assets/031f54f8134390cffc376248b1dae95f.jpg">
                                 <span>Nombre</span>
@@ -142,9 +142,8 @@
                                 <span>$ 100</span>
                                 <button class=""><img src="./assets/trash-can-solid.svg"></button>
                             </div>
-                        </div>
+                        </div> -->
         
-
                     </div>
                 </div>
 
@@ -156,7 +155,7 @@
                     <form class="element-form" name="element-form" data-form>
                             
                         <input class="form-input" name="nombre" placeholder="Nombre" data-name type="text" required>
-                        <input class="form-input" name="precio" placeholder="Precio" data-price type="number" required>
+                        <input class="form-input" name="precio" placeholder="Precio" data-price type="number" min="0" required>
                         <input class="form-input" name="imagen" placeholder="Imagen" data-img required>
 
                         <div class="form-buttons">
@@ -180,4 +179,5 @@
     <script src="./scripts/main.js" type="module"></script>
     <script src="./scripts/get.js" type="module"></script>
     <script src="./scripts/post.js" type="module"></script>
+    <script src="./scripts/delete.js" type="module"></script>
 </html>
