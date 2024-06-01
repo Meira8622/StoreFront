@@ -1,0 +1,338 @@
+
+/* @media (min-width: 600px) and (max-width: 1200px) {
+} */
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.833vw;
+    height: 0.833vw;
+  }
+  
+  /* Pista de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background: rgba(240, 240, 240, 0.08); /* Color de fondo translucido */
+    border-radius: 0.694vw;
+  }
+  
+  /* Barra de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(61, 61, 61, 0.7); /* Color de barra translucido */
+    border-radius: 0.694vw;
+    border: 0.139vw solid rgba(240, 240, 240, 0); /* Borde de la barra */
+  }
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    /* background-color: rgb(61, 61, 61); */
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10vw;
+}
+
+/* afecta resoluciones de 435px para arriba */
+/* resolucion escritorio */
+@media (min-width: /*435px*/ 0) {
+
+    #video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%; 
+        height: 100%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        z-index: -3;
+    }
+
+    /* .gradient {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 101%;
+        height: 200%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        z-index: -2;
+        background: linear-gradient(rgba(0, 0, 0, 0) 0%,black 50%);
+    }
+
+    .pattern {
+        position: absolute;
+        top: 145%;
+        left: 50%;
+        width: 85%;
+        height: auto;
+        transform: translate(-50%, -50%); 
+        object-fit: cover;
+        z-index: -1;
+        background: linear-gradient(rgba(0, 0, 0, 0) 0%,black 50%);
+    } */
+
+    /* cabecera */
+
+    .top {
+        background-color: rgba(0, 0, 0, 0.735);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        height: 3vw;
+        display: flex;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2vw;
+        color: white;
+    }
+
+    /* cuerpo */
+
+    /* .middle {
+
+    } */
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Elementos */
+
+    .elements-section {
+        width: 50vw;
+        height: 41vw;
+        margin: 2.222vw 0 0 0;
+        padding: 0 0 2.778vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0,  0.735);
+        backdrop-filter: blur(3px);
+        /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                  0 0 40px rgba(255, 255, 255, 0.6), 
+                  0 0 60px rgba(255, 255, 255, 0.4); */
+        /* border-color: gray;
+        border-style: solid;
+        border-width: 3px; */
+    }
+
+    .elements-section h1 {
+        font-size: 1.667vw;
+        margin: 2.778vw 0 0 0;
+        color: aliceblue;
+    }
+
+    .elements-showcase {
+        width: 44.167vw;
+        height: 67.431vw;
+        margin: 2.778vw 0 0 0;
+        padding: 0 1.389vw 0 1.389vw;
+        /* background-color: rgb(0, 0, 0); */
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        align-content: start;
+        justify-content: flex-start;
+        column-gap: 0.694vw;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .element-card {
+        width: 9.444vw;
+        height: 13.75vw;
+        border-radius: 0.694vw;
+        border-style: solid;
+        border-color: gray;
+        border-width: 0.208vw;
+        background-color: rgb(0, 0, 0);
+        margin: 0.694vw 0 2.083vw 0; 
+        transition: border-color 1s ease, background-color 1s ease;
+        font-size: 1.111vw;
+    }
+
+    .element-card:hover {
+        border-color: rgb(255, 255, 255);
+        background-color: rgba(20, 20, 20, 0.74);
+    }
+
+    .element-item-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0.694vw 0 0 0.694vw;
+        overflow: hidden;
+    }
+
+    .element-item-1 img {
+        width: 7.7vw;
+        height: 8vw;
+        /* width: 90%;
+        height: auto; */
+        border-style: solid;
+        border-width: 0.208vw;
+        border-radius: 0.694vw;
+        border-color: rgb(172, 172, 172);
+        margin: 0 0 0.694vw 0;
+    }
+
+    .element-item-1 span {
+        color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .element-item-2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 40%;
+        margin: 0.833vw 0.694vw 0 0.694vw;
+        color: rgb(191, 191, 191);
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .element-item-2 span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .element-item-2 img {
+        width: 0.8vw;
+        height: auto;
+        color: white;
+    }
+
+    .element-card button {
+        padding: 0 0 0 0;
+        width: 0.8vw;
+        height: 0.8vw;
+        border-style: none;
+        background-color: transparent;
+        cursor: pointer;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* Formulario */
+
+    .form-section {
+        width: 100%;
+        height: 35.903vw;
+        margin: 10vh 0 0 0;
+        border-color: gray;
+        border-radius: 1.389vw;
+        border-width: 0.208vw;
+        /* border-style: solid; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0,  0.735);
+        backdrop-filter: blur(3px);
+    }
+
+    .form-section h1 {
+        margin: 2.778vw 0 0 0;
+        font-size: 1.667vw;
+        color: white;
+    }
+
+    .element-form {
+        margin: 2.778vw 0 0 0;
+        width: 30vw;
+        height: 34.722vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.778vw;
+    }
+
+    .form-input {
+        width: 25.833vw;
+        height: 4.028vw;
+        border-radius: 2.083vw;
+        border-style: solid;
+        border-width: 0.208vw;
+        border-color: gray;
+        padding-left: 1.389vw;
+        background-color: black;
+        color: white;
+        font-size: 1.111vw;
+        transition: border-color 1s ease;
+    }
+
+    .form-input:hover {
+        border-color: white;
+    }
+
+    .form-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 0.903vw;
+    }
+
+    .form-button {
+        width: 13.056vw;
+        height: 3.819vw;
+        border-radius: 0.694vw;
+        border-style: solid;
+        border-color: gray;
+        border-width: 0.208vw;
+        background-color: black;
+        color: rgb(236, 236, 236);
+        transition: background-color 1s ease, border-color 1s ease;
+        font-size: 1.111vw;
+        cursor: pointer;
+    }
+
+    .form-button:hover {
+        background-color: rgb(21, 21, 21);
+        border-color: white;
+    }
+
+    /* pie de pagina */
+
+    .bottom {
+        margin: 4.444vw 0 0 0;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        height: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1vw;
+    }
+
+}
+
+/* resolucion telefono */
+@media (max-width: 430px) {
+
+}
+

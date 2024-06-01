@@ -1,0 +1,124 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEQvVywDGbnwgCTuWXGXP3fZd1tCcDDnCrjg&s",
+      "nombre": "elemento1",
+      "precio": "100"
+    },
+    {
+      "id": 2,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEQvVywDGbnwgCTuWXGXP3fZd1tCcDDnCrjg&s",
+      "nombre": "elemento2",
+      "precio": "101"
+    },
+    {
+      "id": 3,
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png",
+      "nombre": "pepe",
+      "precio": "10"
+    },
+    {
+      "imagen": "caca",
+      "nombre": "elemento1",
+      "precio": "100",
+      "id": 4
+    },
+    {
+      "imagen": "https://static.vecteezy.com/system/resources/previews/022/726/411/non_2x/patrick-star-in-spongebob-squarepants-free-vector.jpg",
+      "nombre": "el gordo pelotudo",
+      "precio": "100000000",
+      "id": 5
+    },
+    {
+      "imagen": "https://live.staticflickr.com/2244/2273286578_5fd9eef909.jpg",
+      "nombre": "el gordo que arregla",
+      "precio": "200",
+      "id": 6
+    },
+    {
+      "imagen": "https://i.pinimg.com/736x/89/74/23/897423a5232c2fe46aa12d52f1402a03.jpg",
+      "nombre": "el gordo bug",
+      "precio": "300",
+      "id": 7
+    },
+    {
+      "imagen": "https://static.wikia.nocookie.net/5121822c-7331-4d57-8a3c-672e78d113ba/scale-to-width/755",
+      "nombre": "paulo",
+      "precio": "3000",
+      "id": 8
+    },
+    {
+      "imagen": "https://www.redbubble.com/i/magnet/Handsome-Squidward-by-Thisalfernando/48664470.TBCTK",
+      "nombre": "el bello calamardo",
+      "precio": "400",
+      "id": 9
+    },
+    {
+      "imagen": "https://ih1.redbubble.net/image.1234940052.4470/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg",
+      "nombre": "el bello calamardo",
+      "precio": "450",
+      "id": 10
+    },
+    {
+      "imagen": "https://nationaltoday.com/wp-content/uploads/2022/10/456841119-min.jpg",
+      "nombre": "jugo de escarabajo",
+      "precio": "5000",
+      "id": 11
+    },
+    {
+      "imagen": "https://external-preview.redd.it/cD3n_i03ZJ1BS_OvIpWXrF_ItieB2RZh9aceiyZP4sU.jpg?auto=webp&s=2196cc361e99abdb4c1a74388c5c0cd43ac3b40a",
+      "nombre": "fausto everyday",
+      "precio": "10000",
+      "id": 12
+    },
+    {
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfAfmQmKl2i2kr1InkvUwZdf6XWyG977X-lQ&s",
+      "nombre": "best singer ever",
+      "precio": "10000000000000000000000000000",
+      "id": 13
+    },
+    {
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSs7P83urGPJsstRf5yk3XVQ68R5m7jev9vA&s",
+      "nombre": "fausto's food",
+      "precio": "2",
+      "id": 14
+    },
+    {
+      "imagen": "https://preview.redd.it/whos-the-best-survivor-and-why-is-it-coach-v0-3jc1mcarxvg81.jpg?auto=webp&s=5379ed0818826e6e038f1d5c42d0e0c4776eea6d",
+      "nombre": "me when i see u",
+      "precio": "3",
+      "id": 15
+    },
+    {
+      "imagen": "https://i.ytimg.com/vi/PxBML4Gs0AM/hqdefault.jpg",
+      "nombre": "el gordo silla en sus clases de anatomía",
+      "precio": "600",
+      "id": 16
+    },
+    {
+      "imagen": "https://i.redd.it/94znpka4gl971.jpg",
+      "nombre": "cuando haces brownies",
+      "precio": "73",
+      "id": 17
+    },
+    {
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmu-heBG5LU2FTzgxjjmtxAW2pMOpWWNAq4A&s",
+      "nombre": "SALAMALECOMALECOMSALAAAAAA",
+      "precio": "90000000000000000000000000000000000",
+      "id": 18
+    },
+    {
+      "imagen": "https://lastfm.freetls.fastly.net/i/u/ar0/df90d5a0d522150a08e2db9a71eef259.jpg",
+      "nombre": "JOTA UVE",
+      "precio": "839285776594002019183757",
+      "id": 19
+    },
+    {
+      "imagen": "https://i.pinimg.com/564x/e6/16/66/e61666ae4a25a83031fe803c0979d87a.jpg",
+      "nombre": "montate en mi motora",
+      "precio": "67",
+      "id": 20
+    }
+  ]
+}
