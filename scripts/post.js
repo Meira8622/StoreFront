@@ -2,7 +2,7 @@ import { api } from "./main.js";
 
 const form = document.querySelector("[data-form]")
 
-async function carta(form) {
+async function cartaNueva(form) {
     form.preventDefault();
 
     const imagen = document.querySelector("[data-img]").value;
@@ -19,4 +19,4 @@ async function carta(form) {
     }
 }
 
-form.addEventListener("submit", e => carta(e))
+form.addEventListener("submit", e => cartaNueva(e))
