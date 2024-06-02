@@ -9,7 +9,7 @@ async function borrarCarta(elemento) {
     await api.dbDELETE(parent.id);    
 }
 
-fetch("http://localhost:3001/productos")
+fetch(api.fetchURL)
     .then(respuesta => {
         const borrar = document.querySelectorAll(".delete");
         

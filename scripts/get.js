@@ -27,7 +27,8 @@ async function listar() {
         elementos.forEach(elemento => mostrador.appendChild(crearCarta(elemento.imagen, elemento.nombre, elemento.precio, elemento.id)));
     }
     catch {
-        mostrador.appendChild(document.createElement("<h1>No sea han encontrado datos</h1>"));
+        // mostrador.appendChild(document.createElement("<h1>No sea han encontrado datos</h1>"));
+        console.log("No se ha encontrado data");
     }
 }
 
