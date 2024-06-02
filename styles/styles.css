@@ -54,6 +54,7 @@ html {
         transform: translate(-50%, -50%);
         object-fit: cover;
         z-index: -3;
+        background-color: black;
     }
 
     /* .gradient {
