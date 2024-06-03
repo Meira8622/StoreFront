@@ -28,7 +28,7 @@ async function listar() {
     }
     catch {
         // mostrador.appendChild(document.createElement("<h1>No sea han encontrado datos</h1>"));
-        console.log("No se ha encontrado data");
+        console.log("No se han encontrado datos");
     }
 }
 

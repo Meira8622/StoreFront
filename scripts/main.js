@@ -1,5 +1,5 @@
 // const apiURL = "http://localhost:3001/productos";
-const apiURL = "https://665cf951e88051d6040526f3.mockapi.io/api/:endpoint";
+const apiURL = "https://665cf951e88051d6040526f3.mockapi.io/api/productos";
 
 async function dbGET() {
     const database = await fetch(apiURL);
@@ -27,6 +27,9 @@ async function dbDELETE(elementId) {
         method: "DELETE",
         headers:{"content-type":"application/json"}
     })
+
+    console.log(`${apiURL}/${elementId}`);
+    // document.getElementById("element-${elementId}").remove;
 }
 
 export const api = {
