@@ -1,4 +1,5 @@
 // const apiURL = "http://localhost:3001/productos";
+
 const apiURL = "https://665cf951e88051d6040526f3.mockapi.io/api/productos";
 
 async function dbGET() {
@@ -29,7 +30,12 @@ async function dbDELETE(elementId) {
     })
 
     console.log(`${apiURL}/${elementId}`);
-    // document.getElementById("element-${elementId}").remove;
+    const element = document.getElementById("element-${elementId}");
+    if(element) {
+        element.remove();
+    } else {
+        console.log("Elemento no encontrado en el DOM");
+    }
 }
 
 export const api = {
