@@ -11,9 +11,9 @@ async function cartaNueva(form) {
     const imagen = document.querySelector("[data-img]").value;
     const nombre = document.querySelector("[data-name]").value;
     const precio = document.querySelector("[data-price]").value;
-    const id = await card();
+    const id = `${await card()}`;
 
-    console.log(nombre,precio,id)
+    console.log(nombre,precio,id);
 
 
     try {      
@@ -62,10 +62,18 @@ async function card() {
 
     // return db[dbLength-1].id;
     if(dbLength>0) {
-        console.log("primero")
-        return (db[dbLength-1].id)+1;
+        console.log("db length>0");
+        console.log(db[dbLength-1].id);
+        console.log(db[dbLength-1]);
+
+        const nextId = parseInt(db[dbLength-1].id)
+        console.log(nextId+1)
+
+        // return (db[dbLength-1].id)+1;
+
+        return nextId+1;
     } else {
-        console.log("tercero")
+        console.log("no hay elementos");
         return 1;
     }
 }
