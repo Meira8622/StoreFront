@@ -51,7 +51,7 @@ async function card() {
     const dbLength = Object.keys(db).length;
     console.log(dbLength);
 
-    console.log(db[dbLength-1].id);
+    // console.log(db[dbLength-1].id);
 
     // const elemento = await fetch(`${api.apiURL}/${db[dbLength-1].id}`)
     // const conversion = await elemento.json();
