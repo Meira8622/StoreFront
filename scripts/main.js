@@ -1,5 +1,4 @@
 // const apiURL = "http://localhost:3001/productos";
-
 const apiURL = "https://665cf951e88051d6040526f3.mockapi.io/api/productos";
 
 async function dbGET() {
@@ -9,7 +8,7 @@ async function dbGET() {
     return dbConversion
 }
 
-async function dbPOST(imagen,nombre,precio,id) {
+async function dbPOST(imagen,nombre,precio) {
     const database = await fetch(apiURL, {
         method:"POST",
         headers:{"content-type":"application/json"},
@@ -20,6 +19,7 @@ async function dbPOST(imagen,nombre,precio,id) {
         })
     });
     const dbConversion = await database.json();
+
     return dbConversion;
 }
 
@@ -30,7 +30,7 @@ async function dbDELETE(elementId) {
     })
 
     console.log(`${apiURL}/${elementId}`);
-    const element = document.getElementById("element-${elementId}");
+    const element = document.getElementById(`element-${elementId}`);
     if(element) {
         element.remove();
     } else {

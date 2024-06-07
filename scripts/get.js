@@ -34,6 +34,8 @@ async function listar() {
 
 listar();
 
+export { crearCarta };
+
 /*
 <div class="element-card">
     <div class="element-item-1">
